@@ -15,7 +15,7 @@
         android:paddingRight="10dp"
         android:paddingTop="10dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -24,7 +24,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="1" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -34,7 +34,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="2" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -44,7 +44,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="3" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -65,7 +65,7 @@
         android:paddingRight="10dp"
         android:paddingTop="5dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -74,7 +74,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="5" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn6"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -84,7 +84,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="6" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn7"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -94,7 +94,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="7" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn8"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -115,7 +115,7 @@
         android:paddingRight="10dp"
         android:paddingTop="5dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn9"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -124,7 +124,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="9" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn10"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -134,7 +134,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="10" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn11"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -144,7 +144,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="11" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn12"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -165,7 +165,7 @@
         android:paddingRight="10dp"
         android:paddingTop="5dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn13"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -174,7 +174,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="13" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn14"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -184,7 +184,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="14" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn15"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -194,7 +194,7 @@
             android:background="@android:color/holo_orange_light"
             android:tag="15" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn16"
             android:layout_width="0dp"
             android:layout_height="match_parent"
