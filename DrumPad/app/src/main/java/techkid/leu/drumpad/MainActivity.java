@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         ti++;
+        Log.d("phantu"," " + buttonInforArrayList.size());
 
         for(int i = 0;i < event.getPointerCount();i++){
             int id = event.getPointerId(i);
@@ -154,8 +155,10 @@ public class MainActivity extends AppCompatActivity {
 
             if(pointerAction == MotionEvent.ACTION_POINTER_UP || pointerAction == MotionEvent.ACTION_UP){
                 for(int j = buttonInforArrayList.size() - 1;j >= 0;j--){
-                    if(buttonInforArrayList.get(j).getId() == id){
+                    int firstId = event.getPointerId(event.getActionIndex());
+                    if(buttonInforArrayList.get(j).getId() == firstId){
                         buttonInforArrayList.get(j).setDestroy(true);
+                        buttonInforArrayList.get(j).changeImage();
                     }
                 }
             }
