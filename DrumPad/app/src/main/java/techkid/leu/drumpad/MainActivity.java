@@ -103,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
 //                });
             }
         }
+        SoundManager.loadSoundsIntoList(this);
+
 
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
@@ -148,6 +150,8 @@ public class MainActivity extends AppCompatActivity {
                         Position p = new Position(pressedButtonPosition.getX(),pressedButtonPosition.getY());
                         ButtonInfor b = new ButtonInfor(id,p);
                         buttonInforArrayList.add(b);
+                        SoundManager.playSound(btns[p.getX()][p.getY()].getTag()+"");
+                        Log.d("abc",btns[p.getX()][p.getY()].getTag()+"");
                         b.changeImage();
                     }
                 }
